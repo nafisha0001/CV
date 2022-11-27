@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nafisha's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="menu">
+        <button id="close-menu">&times;</button>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#Qualification">Qualification</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#tech">Technologies</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </section>
+    <header class="header">
+        <nav class="default-nav">
+            <a href="#about-me">About Me</a><a href="#Qualification">Qualification</a><a href="#hobbies">Hobbies</a><a href="#tech">Technologies</a><a href="#contact">Contact Me</a>
+        </nav>
+        <nav class="mobile-nav">
+            <button id="menu-button">Menu</button>
+        </nav>
+    </header>
+    <main class="container">
+        <article class="intro">
+            <img id="profile-image" src="Nafisha.png" alt="Profile Image" />
+            <h1>Hi, I am Nafisha</h1>
+            <p>I am a <span id="dynamic-text"> </span></p>
+            <p class="social-links">
+                <a href="https://twitter.com/nafishakhan0001?t=mJhl8iknSiDpTFzughi5qw&s=08" target="_blank">
+                    <img width="30" height="30" src="twitter.png" />
+                </a>
+                <a href="https://www.linkedin.com/in/nafisha-begum-91a799223" target="_blank">
+                    <img width="30" height="30" src="linkedin.png" />
+                </a>
+                <a href="https://www.instagram.com/invites/contact/?i=nkk8ouucl0z8&utm_content=ovt6vg3" target="_blank">
+                    <img width="30" height="30" src="Instagram.png" />
+                </a>
+            </p>
+        </article>
+
+        <section id="about-me">
+            <h2>About me</h2>
+            <p> B Tech (CSE) second year student </p>
+            <p>I completed my schooling from Senior Secondary Residential School for Meritorious students Patiala.I have secured 97.8% marks in +2(Science) class. </p>
+            <p>After that I took addmission in B Tech(CSE) in Eternal University Baru Sahib(Sirmour). And now I am a second year student.</p>
+        </section>
+        <section id="Qualification">
+            <h2>Qualifications</h2>
+            <ol>
+                <li>+2(science)</li>
+                <li>B Tech(CSE)</li>
+            </ol>
+        </section>
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Reading books</li>
+                <li>Dancing</li>
+                <li>Travelling</li>
+                <li>Listening to music</li>
+            </ul>
+        </section>
+        <h2 id="tech">Technologies</h2>
+        <section id="technologies">
+            <section class="card">
+                <header>
+                    <h1>Frontend</h1>
+                </header>
+                <ul>
+                    <li>HTML</li>
+                    <li>JS</li>
+                    <li>CSS</li>
+                </ul>
+            </section>
+            <section class="card">
+                <header>
+                    <h1>Backend</h1>
+                </header>
+               <ul>
+                    <li>NodeJS</li>
+                    <li>AspNET</li>
+                    <li>Rails</li>
+               </ul>
+            </section>
+            <section class="card">
+                <header>
+                    <h1>Database</h1>
+                </header>
+                <ul>
+                    <li>Mongo DB</li>
+                    <li>Postgrest</li>
+                    <li>MySQL</li>
+                </ul>
+            </section>
+        </section>
+        <section id="contact-me">
+            <form name="contact" id="contact" method="post" data-netlify="true">
+                <h1>Contact Me</h1>
+                <section>
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" required/>
+                </section>
+                <section>
+                    <label for="lastName">Last Name</lable>
+                    <input type="text" name="lastName" id="lastName" required/>        
+                </section>
+                <section>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </section>
+                <button type="submit">Send</button>
+            </form>
+            <footer>
+                Made By Nafisha
+            </footer>
+        </section>
+    </main> 
+    
+    <script src="main.js"></script>
+</body>
+</html>
